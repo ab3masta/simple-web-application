@@ -1,0 +1,69 @@
+{% load static %}
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Acceuil</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href=" {% static 'css/exemple1.css' %} ">
+    <script src="https://kit.fontawesome.com/1eb8199e49.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header id="home">
+        <div class="container">
+            <nav>
+                <a class="navbar-brand" href="https://all-example.herokuapp.com">
+                    <i class="fas fa-long-arrow-alt-left icon "></i>
+                </a>
+                <div class="navbar-brand ">
+                    <p class="title">Simple Web Application</p>
+                </div>
+            </nav>
+            <div class="hero-text w-100 text-white px-2 px-sm-0 row1">
+                <nav class="d-flex align_items_center justify-content-center justify-content-around">
+                    <p><i class=" fas fa-star-of-life etoile"></i>Framework backend</p>
+                    <p><i class=" fas fa-star-of-life etoile"></i>Framework frontend css</p>
+                    <p><i class=" fas fa-star-of-life etoile"></i>Cloud</p>
+                </nav>
+                <nav class="d-flex align_items_center justify-content-center justify-content-around">
+                    <p><img src=" {% static 'img/django.png' %}" width="100px" height="50px" alt="">
+                    </p>
+                    <p><i class="fab fa-bootstrap icon"></i>Boostrap</p>
+                    <p><img src="{% static 'img/heroku.jpg' %}" width="50px" height="50px" alt="">Heroku</p>
+                </nav>
+            </div>
+            <div class="hero-text w-100 text-white px-2 px-sm-0 row2">
+                <nav class="d-flex align_items_center justify-content-center justify-content-around">
+                    <p><i class=" fas fa-star-of-life etoile"></i>Package Managers</p>
+                    <p><i class=" fas fa-star-of-life etoile"></i>Font</p>
+                </nav>
+                <nav class=" d-flex align_items_center justify-content-center justify-content-around">
+                    <p><i class=" fab fa-npm icon"></i>npm</p>
+                    <p><i class="fab fa-font-awesome icon"></i>FontAwesome et google font</p>
+
+                </nav>
+            </div>
+            <div class="hero-text w-100 text-white px-2 px-sm-0 row2">
+                <nav class="d-flex align_items_center justify-content-center">
+                    <p><i class="fab fa-github icon"></i>git</p>
+                </nav>
+                <nav class="d-flex align_items_center justify-content-center">
+                    <p>Code source here <a href=""> hereherehrehrehrehrehrehr</a> </p>
+                </nav>
+            </div>
+        </div>
+    </header>
+</body>
+
+</html>
+<!-- <td><i class="fab fa-github"></i></td>
+                        <td><i class="fab fa-font-awesome"></i></td>
+                        <td><i class="fab fa-react"></i></td>
+                        <td><i class="fab fa-bootstrap"></i></td>
+                        <td><i class="fab fa-python"></i></td>
+                        <td><i class="fab fa-npm"></i></td> -->
